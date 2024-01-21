@@ -1,5 +1,5 @@
 {
-  "name": "kiveu/mpesa-php-sdk",
+  "name": "kiveu/mpesa",
   "description": "This is a PHP SDK for the M-Pesa API for Mpesa Daraja API 2.0",
   "version": "1.0.0",
   "authors": [
