@@ -9,7 +9,9 @@
           "homepage": "https://umeskiasoftwares.com"
       }
   ],
-  "require": {},
+  "require": {
+      "php": ">=7.0"
+  },
   "autoload": {
       "psr-4": {
           "MpesaSdk\\": "src/"
