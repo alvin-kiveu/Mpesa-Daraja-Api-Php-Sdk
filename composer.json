@@ -13,8 +13,7 @@
   ],
   "require": {
     "php": "^7.4 || ^8.0",
-    "guzzlehttp/guzzle": "^7.0",
-    "kiveu/mpesa": "dev-main"
+    "guzzlehttp/guzzle": "^7.0"
   },
   "autoload": {
     "psr-4": {
