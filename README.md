@@ -7,7 +7,7 @@ This is a php sdk for the new Mpesa Daraja Api. It is still in development and w
 You can install the package via composer:
 
 ```bash
-composer require kiveu/mpesa-php-sdk
+composer require kiveu/mpesa
 ```
 
 ## ENVIRONMENT VARIABLES
