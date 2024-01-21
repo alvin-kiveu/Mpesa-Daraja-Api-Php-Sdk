@@ -3,18 +3,20 @@
   "description": "This is a PHP SDK for the M-Pesa API for Mpesa Daraja API 2.0",
   "version": "1.0.0",
   "authors": [
-      {
-          "name": "Alvin Kiveu",
-          "email": "alvo967@gmail.com",
-          "homepage": "https://umeskiasoftwares.com"
-      }
+    {
+      "name": "Alvin Kiveu",
+      "email": "alvo967@gmail.com",
+      "homepage": "https://umeskiasoftwares.com"
+    }
   ],
   "require": {
-      "php": ">=7.0"
+    "php": ">=7.0"
   },
+  "minimum-stability": "dev",  
+  "prefer-stable": true,     
   "autoload": {
-      "psr-4": {
-          "MpesaSdk\\": "src/"
-      }
+    "psr-4": {
+      "MpesaSdk\\": "src/"
+    }
   }
 }
