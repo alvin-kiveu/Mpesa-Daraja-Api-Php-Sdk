@@ -22,5 +22,10 @@
     "psr-4": {
       "MpesaSdk\\": "src/"
     }
+  },
+  "config": {
+    "preferred-install": {
+      "kiveu/mpesa": "dist"
+    }
   }
 }
