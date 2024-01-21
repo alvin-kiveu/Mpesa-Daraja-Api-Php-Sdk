@@ -2,6 +2,8 @@
   "name": "kiveu/mpesa",
   "description": "This is a PHP SDK for the M-Pesa API for Mpesa Daraja API 2.0 2024",
   "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Alvin Kiveu",
@@ -10,22 +12,14 @@
     }
   ],
   "require": {
-    "php": "^7.4 || ^8.0"
+    "php": "^7.4 || ^8.0",
+    "guzzlehttp/guzzle": "^7.0"
   },
-  "require-dev": {
-    "phpunit/phpunit": "^9.0"
-  },
-  "license": "MIT",
-  "minimum-stability": "stable",
-  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "MpesaSdk\\": "src/"
     }
   },
-  "config": {
-    "preferred-install": {
-      "kiveu/mpesa": "dist"
-    }
-  }
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
