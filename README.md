@@ -10,6 +10,34 @@ You can install the package via composer:
 composer require kiveu/mpesa
 ```
 
+dev version
+
+```bash
+composer require kiveu/mpesa:dev-main
+```
+
+UNDER DEVELOPMENT
+
+## Usage
+
+```php
+use Kiveu\Mpesa\StkPush;
+
+$stkpush = new StkPush();
+
+$stkpush->initiate($phone_number, $amount, $reference, $description);
+```
+
+## Testing
+
+```bash
+composer test
+```
+
+
+
+
+
 ## ENVIRONMENT VARIABLES
 
 ```bash
@@ -19,4 +47,10 @@ MPESA_CONSUMER_SECRET= add your consumer secret
 MPESA_PASSKEY= add your passkey
 MPESA_SHORTCODE= add your shortcode
 MPESA_CALLBACK_URL= add your callback url
+MPESA_INITIATOR_NAME= add your initiator name
+MPESA_INITIATOR_PASSWORD= add your initiator password
+MPESA_B2C_SHORTCODE= add your b2c shortcode
+MAPESA_C2B_VERSION= add your c2b version v1 or v2
+MPESA_CONFIRMATION_URL= add your confirmation url
+MPESA_VALIDATION_URL= add your validation url
 ```

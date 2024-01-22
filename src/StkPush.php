@@ -1,9 +1,8 @@
 <?php
 namespace MpesaSdk;
 
-use MpesaSdk\MpesaSdk;
 
-class StkPush
+class StkPush extends MpesaSdk
 {
  
 
