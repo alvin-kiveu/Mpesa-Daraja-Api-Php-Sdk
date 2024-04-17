@@ -7,7 +7,7 @@ use MpesaSdk\MpesaSdk;
 class B2c extends MpesaSdk
 {
 
-  public function B2c($Amount,$phone,$CommandID)
+  public function b2c($Amount,$phone,$CommandID)
   {
     $mpesa_sdk = new MpesaSdk();
     $access_token = $mpesa_sdk->generateAccessToken();

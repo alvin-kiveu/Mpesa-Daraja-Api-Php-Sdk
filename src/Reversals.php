@@ -7,7 +7,7 @@ use MpesaSdk\MpesaSdk;
 class Reversals extends MpesaSdk
 {
 
-  public function Reversals($TransactionID, $Amount)
+  public function reversals($TransactionID, $Amount)
   {
     $mpesa_sdk = new MpesaSdk();
     $access_token = $mpesa_sdk->generateAccessToken();

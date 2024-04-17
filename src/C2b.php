@@ -6,7 +6,7 @@ use MpesaSdk\MpesaSdk;
 
 class C2b extends MpesaSdk
 {
-  public function register($shortCode, $confirmationUrl, $validationUrl)
+  public function register()
   {
     $mpesa_sdk = new MpesaSdk();
     $access_token = $mpesa_sdk->generateAccessToken();

@@ -7,7 +7,7 @@ use MpesaSdk\MpesaSdk;
 class BussinessPayBill extends MpesaSdk
 {
 
-  public function BussinessPayBill($Amount, $DepositePaybillTillNumber, $accountReference)
+  public function bussinesspaybill($Amount, $DepositePaybillTillNumber, $accountReference)
   {
     $mpesa_sdk = new MpesaSdk();
     $access_token = $mpesa_sdk->generateAccessToken();
