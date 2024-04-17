@@ -50,7 +50,10 @@ MPESA_CALLBACK_URL= add your callback url
 MPESA_INITIATOR_NAME= add your initiator name
 MPESA_INITIATOR_PASSWORD= add your initiator password
 MPESA_B2C_SHORTCODE= add your b2c shortcode
+MPESA_B2C_COMMAND_ID= add your b2c command id eg SalaryPayment, BusinessPayment, PromotionPayment
 MAPESA_C2B_VERSION= add your c2b version v1 or v2
 MPESA_CONFIRMATION_URL= add your confirmation url
 MPESA_VALIDATION_URL= add your validation url
+MPESA_RESULT_URL= add your result url
+KRA_SHORT_CODE= add your kra shortcode
 ```

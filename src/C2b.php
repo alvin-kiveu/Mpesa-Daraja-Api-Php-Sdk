@@ -12,11 +12,7 @@ class C2b extends MpesaSdk
     $access_token = $mpesa_sdk->generateAccessToken();
     $env = getenv('MPESA_ENV');
     $version = getenv('MAPESA_C2B_VERSION');
-    if($version == 'v1'){
-      $registerUrl = $env == 'sandbox' ? 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl' : 'https://api.safaricom.co.ke/mpesa/c2b/v1/registerurl';
-    }else{
-      $registerUrl = $env == 'sandbox' ? 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl' : 'https://api.safaricom.co.ke/mpesa/c2b/v2/registerurl';
-    }
+    $registerUrl = ($version == 'v1' ? ($env == 'sandbox' ? 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl' : 'https://api.safaricom.co.ke/mpesa/c2b/v1/registerurl') : ($env == 'sandbox' ? 'https://sandbox.safaricom.co.ke/mpesa/c2b/v2/registerurl' : 'https://api.safaricom.co.ke/mpesa/c2b/v2/registerurl'));
     $payload = array(
       'ShortCode' => getenv('MPESA_SHORTCODE'),
       'ResponseType' => 'Completed',
