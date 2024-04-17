@@ -4,7 +4,7 @@ namespace MpesaSdk;
 
 use MpesaSdk\MpesaSdk;
 
-class B2bExpressCheckOut extends MpesaSdk
+class B2bexpressCheckout extends MpesaSdk
 {
 
   public function b2bexpresscheckout($Amount, $primaryShortCode, $receiverShortCode)
