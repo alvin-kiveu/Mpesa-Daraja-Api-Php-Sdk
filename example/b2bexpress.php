@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
-use MpesaSdk\B2bExpressCheckOut;
+use MpesaSdk\B2BExpressCheckOut ;
 
-$b2bexpresscheckout = new B2bexpressCheckout();
+$b2bexpresscheckout = new B2BExpressCheckOut ();
 
 $Amount = '100';
 $primaryShortCode = '600000';
