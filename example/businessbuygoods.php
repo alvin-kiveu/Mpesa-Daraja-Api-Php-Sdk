@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
-use MpesaSdk\BussinessBuyGoods;
+use MpesaSdk\BusinessBuyGoods;
 
-$bussinessbuygoods = new BussinessBuyGoods();
+$bussinessbuygoods = new BusinessBuyGoods();
 
 $amount = '100';
 $DepositePaybillTillNumber = '600000';

@@ -4,7 +4,7 @@ namespace MpesaSdk;
 
 use MpesaSdk\MpesaSdk;
 
-class BussinessPayBill extends MpesaSdk
+class BusinessPayBill extends MpesaSdk
 {
 
   public function bussinesspaybill($Amount, $DepositePaybillTillNumber, $accountReference)
