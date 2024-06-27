@@ -1,7 +1,7 @@
 {
   "name": "kiveu/mpesa",
   "description": "This is a PHP SDK for the M-Pesa API for Mpesa Daraja API 2.0 2024",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "library",
   "license": "MIT",
   "authors": [
