@@ -122,8 +122,9 @@ class MpesaSdk
     gYoPHrJ92ToadnFCCpOlLKWc0xVxANofy6fqreOVboPO0qTAYpoXakmgeRNLUiar
     0ah6M/q/KA==
     -----END CERTIFICATE-----';
-    openssl_public_encrypt($password, $encrypted, $publicKey, OPENSSL_PKCS1_PADDING);
-    $SecurityCredential = base64_encode($encrypted);
+    $encrypted_data = '';
+    openssl_public_encrypt($password, $encrypted_data, $publicKey, OPENSSL_PKCS1_PADDING);
+    $SecurityCredential = base64_encode($encrypted_data);
     return $SecurityCredential;
   }
 }
